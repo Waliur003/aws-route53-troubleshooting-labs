@@ -1,0 +1,18 @@
+{
+  "Comment": "Lab02 - Intentionally configure wrong A record",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": 30,
+        "ResourceRecords": [
+          {
+            "Value": ""
+          }
+        ]
+      }
+    }
+  ]
+}

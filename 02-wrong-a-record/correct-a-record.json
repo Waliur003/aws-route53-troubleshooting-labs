@@ -1,0 +1,18 @@
+{
+  "Comment": "Lab02 - Correct wrong A record",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": 30,
+        "ResourceRecords": [
+          {
+            "Value": ""
+          }
+        ]
+      }
+    }
+  ]
+}
