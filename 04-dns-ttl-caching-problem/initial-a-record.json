@@ -1,0 +1,16 @@
+{
+  "Comment": "Lab04 baseline DNS record with 300-second TTL",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": ,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    }
+  ]
+}

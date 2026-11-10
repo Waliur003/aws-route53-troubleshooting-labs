@@ -1,0 +1,16 @@
+{
+  "Comment": "Lab04 - Migrate application DNS to new IP",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": ,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    }
+  ]
+}
