@@ -1,0 +1,17 @@
+{
+  "Comment": "Lab06 - Correct Route53 alias target",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "",
+          "DNSName": "",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}

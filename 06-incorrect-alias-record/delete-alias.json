@@ -1,0 +1,17 @@
+{
+  "Comment": "Lab06 cleanup - delete alias",
+  "Changes": [
+    {
+      "Action": "DELETE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "",
+          "DNSName": "",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Comment": "Lab06 - Intentionally point alias to wrong ALB",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "",
+          "DNSName": "",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Type": "fixed-response",
+    "FixedResponseConfig": {
+      "MessageBody": "Lab06 wrong ALB - service unavailable",
+      "StatusCode": "503",
+      "ContentType": "text/plain"
+    }
+  }
+]
