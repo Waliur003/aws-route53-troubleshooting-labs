@@ -1,0 +1,32 @@
+{
+  "Comment": "Lab08 - Create primary and secondary DNS failover records",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "SetIdentifier": "primary",
+        "Failover": "PRIMARY",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ],
+        "HealthCheckId": ""
+      }
+    },
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "SetIdentifier": "secondary",
+        "Failover": "SECONDARY",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    }
+  ]
+}
