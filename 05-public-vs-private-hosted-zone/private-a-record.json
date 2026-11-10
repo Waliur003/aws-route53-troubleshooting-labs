@@ -1,0 +1,16 @@
+{
+  "Comment": "Lab05 - Fix missing private A record",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": 60,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    }
+  ]
+}

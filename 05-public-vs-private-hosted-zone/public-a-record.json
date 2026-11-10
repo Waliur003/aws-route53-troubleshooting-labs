@@ -1,0 +1,16 @@
+{
+  "Comment": "Lab05 public DNS record only",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": 60,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    }
+  ]
+}
