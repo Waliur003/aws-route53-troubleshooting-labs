@@ -1,0 +1,8 @@
+{
+  "IPAddress": "",
+  "Port": 8081,
+  "Type": "HTTP",
+  "ResourcePath": "/health",
+  "RequestInterval": 30,
+  "FailureThreshold": 3
+}
