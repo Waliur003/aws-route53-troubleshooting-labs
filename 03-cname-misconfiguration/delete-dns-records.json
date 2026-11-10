@@ -1,0 +1,38 @@
+{
+  "Comment": "Lab03 - Delete test DNS records",
+  "Changes": [
+    {
+      "Action": "DELETE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "CNAME",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    },
+    {
+      "Action": "DELETE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    },
+    {
+      "Action": "DELETE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    }
+  ]
+}

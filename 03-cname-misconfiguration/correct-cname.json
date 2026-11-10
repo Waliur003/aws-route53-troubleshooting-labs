@@ -1,0 +1,16 @@
+{
+  "Comment": "Lab03 - Correct CNAME destination",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "CNAME",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    }
+  ]
+}

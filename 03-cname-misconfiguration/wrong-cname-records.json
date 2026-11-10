@@ -1,0 +1,38 @@
+{
+  "Comment": "Lab03 - Create source A records and incorrect CNAME",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    },
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "A",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    },
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "",
+        "Type": "CNAME",
+        "TTL": 30,
+        "ResourceRecords": [
+          {"Value": ""}
+        ]
+      }
+    }
+  ]
+}
